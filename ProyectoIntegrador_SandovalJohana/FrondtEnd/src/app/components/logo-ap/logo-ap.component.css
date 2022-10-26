@@ -31,4 +31,21 @@ img{
     }   
 }
 
+/* Efectos redes */
+.redes a {
+    margin-right: 13px;
+    transition: all .4s;
+    display: inline-block;
+    border-radius: 50%;
+}
 
+
+.redes a:hover {
+    background: #a6aeb7;
+    box-shadow: 0 0 9px #ffffff;
+}
+
+.redes button {
+    margin-left: 14px;
+
+}

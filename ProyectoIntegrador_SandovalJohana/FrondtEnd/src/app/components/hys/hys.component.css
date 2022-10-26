@@ -1,4 +1,11 @@
 .row{
-    background-color: #a1b5cb;
+    background-color: #d1dce7;
     padding: 20px;
+}
+
+.circulo{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+
 }
