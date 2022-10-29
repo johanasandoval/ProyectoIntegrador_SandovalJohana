@@ -17,12 +17,12 @@
         [animationDuration]="300"
         ></circle-progress>
         <div>
+          <td *ngIf="isLogged" class="table-portfolio-buttons">
           <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
             <i class="bi bi-pencil"></i></button>
-
-
           <button class="btn btn-secondary" (click)="delete(skill.id)">
             <i class="bi bi-trash-fill"></i></button>
+          </td>
         </div>
 
     </div>
