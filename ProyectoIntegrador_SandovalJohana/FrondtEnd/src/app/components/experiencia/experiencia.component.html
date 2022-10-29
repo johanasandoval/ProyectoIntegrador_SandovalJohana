@@ -1,12 +1,12 @@
 
-  <section class="container">
+  <section class="container py-5">
     <h1>Experiencia laboral</h1>
     <button type="button" class="btn btn-light" routerLink="/nuevaexp" *ngIf="isLogged">
       Nueva experiencia
     </button>
 
 
-    <table class="table table-responsive table-portfolio">
+    <table class="table table-responsive table-portfolio mt-3">
       <tbody>
         <tr *ngFor="let Experiencia of expe">
           <td>{{Experiencia.nombreE}}</td>
