@@ -10,7 +10,7 @@ import { TokenService } from 'src/app/service/token.service';
 })
 export class HysComponent implements OnInit {
 
-  skill: Skill[] = [];
+  listOfSkills : Skill [] = [];
 
   constructor(private skillS: SkillService, private tokenService: TokenService) { }
   isLogged = false;
@@ -27,7 +27,7 @@ export class HysComponent implements OnInit {
   cargarSkills(): void{
     this.skillS.lista().subscribe(
       data => {
-        this.skill = data;
+        this.listOfSkills = data;
       }
     )
   }
