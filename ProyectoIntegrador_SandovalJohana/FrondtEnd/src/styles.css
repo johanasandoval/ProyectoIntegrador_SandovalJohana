@@ -2,3 +2,25 @@
 body {
   background-color: #d1dce7;
 }
+
+.table-portfolio {
+  margin-bottom: 0;
+}
+
+.table-portfolio .table-portfolio-buttons {
+  width: 1px;
+  white-space: nowrap;
+}
+
+
+.table-portfolio .table-portfolio-buttons button {
+  margin-right: 7px;
+}
+
+.table-portfolio .table-portfolio-buttons button .bi {
+  margin-right: 7px;
+}
+
+.table-portfolio .table-portfolio-buttons button:last-child {
+  margin-right: 0;
+}
