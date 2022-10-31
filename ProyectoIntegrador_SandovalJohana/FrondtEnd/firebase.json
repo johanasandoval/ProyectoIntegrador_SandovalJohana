@@ -1,15 +1,15 @@
 {
-  "hosting":{
-    "public":  "dist/proyecto-integrador-sandoval-johana",
+  "hosting": {
+    "public": "dist/proyecto-integrador-sandoval-johana",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites":[
+    "rewrites": [
       {
-        "source":"**",
-        "destination":"/index.html"
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
