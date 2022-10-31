@@ -14,7 +14,7 @@ export const environment = {
     measurementId: 'G-E0K8L3TZF5',
   },
   production: false,
-  URL:'http://localhost:8080/'
+  URL:'https://bkdjoha.herokuapp.com/'
   //URL:poner la de produccion
 };
 
